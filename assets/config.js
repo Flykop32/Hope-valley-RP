@@ -4,7 +4,7 @@
  */
 window.HVRP = {
   serverName: "Hope Valley RP",
-  discordUrl: "PASTE_YOUR_DISCORD_INVITE_HERE",
+  discordUrl: "https://discord.gg/U3xGAQaah6",
   connectCommand: "connect PASTE_SERVER_IP:PORT_HERE",
   serverRegion: "US-East",
   whitelistHow: "Join Discord → Read #rules → Open a ticket → Get whitelisted",
