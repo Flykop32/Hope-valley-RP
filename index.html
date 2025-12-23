@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hope Valley RP</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <script src="assets/config.js"></script>
+</head>
+<body>
+  
+<header class="nav">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:14px">
+    <a class="brand" href="index.html">
+      <div class="badge" aria-hidden="true">🤠</div>
+      <div>
+        <h1 id="serverName">Hope Valley RP</h1>
+        <p id="tagline">A gritty 1897 frontier RP experience.</p>
+      </div>
+    </a>
+    <nav class="links">
+      <a class="link" href="index.html" style='color:var(--ink);border-color:var(--border)'>Home</a>
+      <a class="link" href="connect.html" >How to Join</a>
+      <a class="link" href="rules.html" >Rules</a>
+      <a class="link" href="apply.html" >Apply</a>
+      <a class="link" id="discordLink" href="#" target="_blank" rel="noreferrer">Discord</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    
+<section class="hero">
+  <div class="card">
+    <div class="kicker"><span class="dot"></span> REDM • FRONTIER ROLEPLAY • 1897</div>
+    <h2>Welcome to <span id="serverName">Hope Valley RP</span></h2>
+    <p id="setupWarn" class="callout" style="display:none">
+      Quick setup: open <span class="code">assets/config.js</span> and paste your Discord invite + your server connect command.
+    </p>
+    <p id="tagline">A gritty 1897 frontier RP experience.</p>
+
+    <div class="ctaRow">
+      <a class="btn primary" id="discordLink2" href="#" target="_blank" rel="noreferrer">Join Discord</a>
+      <a class="btn" href="connect.html">How to Join</a>
+      <a class="btn" href="rules.html">Read Rules</a>
+      <a class="btn" href="apply.html">Apply / Whitelist</a>
+    </div>
+
+    <hr class="sep" />
+    <div class="grid">
+      <div class="card mini">
+        <h3>Serious RP</h3>
+        <p>Character-driven stories, consequences, and a living frontier economy.</p>
+      </div>
+      <div class="card mini">
+        <h3>Jobs & Businesses</h3>
+        <p>Ranching, trading, lawmen, outlaws, saloons, and player-run shops.</p>
+      </div>
+      <div class="card mini">
+        <h3>Events & Fights</h3>
+        <p>Server-wide events, brawls, and competitive nights with prizes.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3 style="margin:0 0 10px">Server Info</h3>
+    <p class="small">Region: <strong id="region">US-East</strong></p>
+    <p class="small">Whitelist: <strong id="whitelistHow">Join Discord → Read #rules → Open a ticket → Get whitelisted</strong></p>
+    <hr class="sep" />
+    <p class="small">Connect command:</p>
+    <div class="code" id="connectCmd">connect PASTE_SERVER_IP:PORT_HERE</div>
+    <p class="small" style="margin-top:10px">Need help? Ask in Discord support.</p>
+    <a class="btn primary" id="discordLink3" href="#" target="_blank" rel="noreferrer" style="margin-top:10px">Open Discord</a>
+  </div>
+</section>
+
+<section class="card">
+  <h3 style="margin:0 0 10px">What’s New</h3>
+  <p>Use this section for announcements: wipes, patch notes, new businesses, event schedules, etc.</p>
+  <ul>
+    <li>Example: “Boxing Night every Friday in Valentine.”</li>
+    <li>Example: “New housing shells and furniture store inventory.”</li>
+    <li>Example: “New player guide updated.”</li>
+  </ul>
+</section>
+
+    <div class="footer">
+      <hr class="sep" />
+      <div>© <span id="serverName2">Hope Valley RP</span> — built with free static hosting.</div>
+      <div class="small">Tip: edit <span class="code">assets/config.js</span> to set your Discord invite + connect command.</div>
+    </div>
+  </main>
+  <script src="assets/base.js"></script>
+</body>
+</html>
